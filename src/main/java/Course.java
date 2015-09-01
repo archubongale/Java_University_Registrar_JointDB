@@ -102,7 +102,7 @@ public class Course {
       .addParameter("id", id)
       .executeUpdate();
 
-      String joinDeleteQuery = "DELETE FROM courses_students WHERE course_id = :courseId";
+      String joinDeleteQuery = "DELETE FROM students_courses WHERE course_id = :courseId";
       con.createQuery(joinDeleteQuery)
       .addParameter("courseId", this.getId())
       .executeUpdate();

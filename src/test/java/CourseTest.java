@@ -40,7 +40,7 @@ public class CourseTest {
     Course myCourse = new Course("History200");
     myCourse.save();
 
-    Student myStudent = new Student("Sally");
+    Student myStudent = new Student("Sally","2015-09-01");
     myStudent.save();
 
     myCourse.addStudent(myStudent);
@@ -53,7 +53,7 @@ public class CourseTest {
     Course myCourse = new Course("History200");
     myCourse.save();
 
-    Student myStudent = new Student("Sally");
+    Student myStudent = new Student("Sally","2015-09-01");
     myStudent.save();
 
     myCourse.addStudent(myStudent);
@@ -66,7 +66,7 @@ public class CourseTest {
     Course myCourse = new Course("History200");
     myCourse.save();
 
-    Student myStudent = new Student("Sally");
+    Student myStudent = new Student("Sally","2015-09-01");
     myStudent.save();
 
     myCourse.addStudent(myStudent);

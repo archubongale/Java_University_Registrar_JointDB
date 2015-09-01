@@ -1,12 +1,12 @@
-# _To Do List_
+# _University Registrar_
 
-##### _Create a to do list. Date of current version: 08/31/15_
+##### _Create a University registrar. Date of current version: 09/01/15_
 
-#### By _**Perry Eising and Jennifer Morkunas**_
+#### By _**Archana Bongale and Jennifer Morkunas**_
 
 ## Description
 
-Follow instructions on each form to add a list of tasks and categories. Add a due date to your task and view your list of tasks ordered by due date. Also add multiple categories to tasks and multiple tasks to each category.
+Follow instructions on each form to add a list of students and courses. Assign students to a course, so that teachers know which students are in their course. A course can have many students and a student can take many courses at the same time.
 
 ## Setup
 
@@ -25,7 +25,7 @@ Java, Velocity Templating, Postgres Database, HTML and CSS
 
 ### Legal
 
-Copyright (c) 2015 **Perry Eising and Jennifer Morkunas**
+Copyright (c) 2015 **Archana Bongale and Jennifer Morkunas**
 
 This software is licensed under the MIT license.
 

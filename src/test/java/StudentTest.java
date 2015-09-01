@@ -17,14 +17,14 @@ public class StudentTest {
 // Test for override objects
   @Test
   public void equals_returnsTrueIfNamesAretheSame() {
-    Student firstStudent = new Student("Sally");
-    Student secondStudent = new Student("Sally");
+    Student firstStudent = new Student("Sally", "2015-09-01");
+    Student secondStudent = new Student("Sally", "2015-09-01");
     assertTrue(firstStudent.equals(secondStudent));
   }
 
   @Test
   public void save_savesObjectIntoDatabase() {
-    Student myStudent = new Student("Sally");
+    Student myStudent = new Student("Sally", "2015-09-01");
     myStudent.save();
     Student savedStudent = Student.all().get(0);
     assertTrue(savedStudent.equals(myStudent));
@@ -32,7 +32,7 @@ public class StudentTest {
 
   @Test
   public void save_assignsIdToObject() {
-    Student myStudent = new Student("Sally");
+    Student myStudent = new Student("Sally", "2015-09-01");
     myStudent.save();
     Student savedStudent = Student.all().get(0);
     assertEquals(myStudent.getId(), savedStudent.getId());
